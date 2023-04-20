@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @available(iOS 13.0, *)
     func createContextMenu() -> UIMenu {
         let share = UIAction(title: "Share", image: UIImage(systemName: "square.and.arrow.up")) {_ in }
-        let rename = UIAction(title: "Rename", image: UIImage(systemName: "square.and.pencil")) { _ in }
+        let rename = UIAction(title: "Mark as read", image: UIImage(systemName: "square.and.pencil")) { _ in }
         let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash"), attributes: .destructive) {_ in }
         return UIMenu(title: "", children: [share, rename, delete])
     }

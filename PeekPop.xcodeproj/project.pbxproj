@@ -16,8 +16,6 @@
 		FF83C57D29E805F800C06BC5 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C57C29E805F800C06BC5 /* ReactionView.swift */; };
 		FF83C58029E8142600C06BC5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C57E29E8142600C06BC5 /* MessageCell.swift */; };
 		FF83C58129E8142600C06BC5 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF83C57F29E8142600C06BC5 /* MessageCell.xib */; };
-		FF83C58329EA65D200C06BC5 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C58229EA65D200C06BC5 /* ActionView.swift */; };
-		FF83C58529EA65E000C06BC5 /* ActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF83C58429EA65E000C06BC5 /* ActionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +30,6 @@
 		FF83C57C29E805F800C06BC5 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
 		FF83C57E29E8142600C06BC5 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		FF83C57F29E8142600C06BC5 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		FF83C58229EA65D200C06BC5 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
-		FF83C58429EA65E000C06BC5 /* ActionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +72,6 @@
 				FF834E3A29E64F430099ADF2 /* Info.plist */,
 				FF83C57E29E8142600C06BC5 /* MessageCell.swift */,
 				FF83C57F29E8142600C06BC5 /* MessageCell.xib */,
-				FF83C58229EA65D200C06BC5 /* ActionView.swift */,
-				FF83C58429EA65E000C06BC5 /* ActionView.xib */,
 			);
 			path = PeekPop;
 			sourceTree = "<group>";
@@ -140,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF83C58529EA65E000C06BC5 /* ActionView.xib in Resources */,
 				FF83C58129E8142600C06BC5 /* MessageCell.xib in Resources */,
 				FF834E3929E64F430099ADF2 /* LaunchScreen.storyboard in Resources */,
 				FF834E3629E64F430099ADF2 /* Assets.xcassets in Resources */,
@@ -156,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF83C58329EA65D200C06BC5 /* ActionView.swift in Sources */,
 				FF834E3129E64F420099ADF2 /* ViewController.swift in Sources */,
 				FF83C58029E8142600C06BC5 /* MessageCell.swift in Sources */,
 				FF83C57D29E805F800C06BC5 /* ReactionView.swift in Sources */,
