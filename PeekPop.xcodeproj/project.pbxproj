@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FF834E2D29E64F420099ADF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF834E2C29E64F420099ADF2 /* AppDelegate.swift */; };
-		FF834E2F29E64F420099ADF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF834E2E29E64F420099ADF2 /* SceneDelegate.swift */; };
 		FF834E3129E64F420099ADF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF834E3029E64F420099ADF2 /* ViewController.swift */; };
 		FF834E3429E64F420099ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF834E3229E64F420099ADF2 /* Main.storyboard */; };
 		FF834E3629E64F430099ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF834E3529E64F430099ADF2 /* Assets.xcassets */; };
 		FF834E3929E64F430099ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF834E3729E64F430099ADF2 /* LaunchScreen.storyboard */; };
+		FF83C57B29E805E700C06BC5 /* ReactionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF83C57A29E805E700C06BC5 /* ReactionView.xib */; };
+		FF83C57D29E805F800C06BC5 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C57C29E805F800C06BC5 /* ReactionView.swift */; };
+		FF83C58029E8142600C06BC5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C57E29E8142600C06BC5 /* MessageCell.swift */; };
+		FF83C58129E8142600C06BC5 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF83C57F29E8142600C06BC5 /* MessageCell.xib */; };
+		FF83C58329EA65D200C06BC5 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83C58229EA65D200C06BC5 /* ActionView.swift */; };
+		FF83C58529EA65E000C06BC5 /* ActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF83C58429EA65E000C06BC5 /* ActionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF834E2929E64F420099ADF2 /* PeekPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF834E2C29E64F420099ADF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF834E2E29E64F420099ADF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF834E3029E64F420099ADF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF834E3329E64F420099ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF834E3529E64F430099ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF834E3829E64F430099ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF834E3A29E64F430099ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF83C57A29E805E700C06BC5 /* ReactionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReactionView.xib; sourceTree = "<group>"; };
+		FF83C57C29E805F800C06BC5 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		FF83C57E29E8142600C06BC5 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		FF83C57F29E8142600C06BC5 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		FF83C58229EA65D200C06BC5 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		FF83C58429EA65E000C06BC5 /* ActionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		FF834E2B29E64F420099ADF2 /* PeekPop */ = {
 			isa = PBXGroup;
 			children = (
+				FF83C57A29E805E700C06BC5 /* ReactionView.xib */,
+				FF83C57C29E805F800C06BC5 /* ReactionView.swift */,
 				FF834E2C29E64F420099ADF2 /* AppDelegate.swift */,
-				FF834E2E29E64F420099ADF2 /* SceneDelegate.swift */,
 				FF834E3029E64F420099ADF2 /* ViewController.swift */,
 				FF834E3229E64F420099ADF2 /* Main.storyboard */,
 				FF834E3529E64F430099ADF2 /* Assets.xcassets */,
 				FF834E3729E64F430099ADF2 /* LaunchScreen.storyboard */,
 				FF834E3A29E64F430099ADF2 /* Info.plist */,
+				FF83C57E29E8142600C06BC5 /* MessageCell.swift */,
+				FF83C57F29E8142600C06BC5 /* MessageCell.xib */,
+				FF83C58229EA65D200C06BC5 /* ActionView.swift */,
+				FF83C58429EA65E000C06BC5 /* ActionView.xib */,
 			);
 			path = PeekPop;
 			sourceTree = "<group>";
@@ -125,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF83C58529EA65E000C06BC5 /* ActionView.xib in Resources */,
+				FF83C58129E8142600C06BC5 /* MessageCell.xib in Resources */,
 				FF834E3929E64F430099ADF2 /* LaunchScreen.storyboard in Resources */,
 				FF834E3629E64F430099ADF2 /* Assets.xcassets in Resources */,
+				FF83C57B29E805E700C06BC5 /* ReactionView.xib in Resources */,
 				FF834E3429E64F420099ADF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF83C58329EA65D200C06BC5 /* ActionView.swift in Sources */,
 				FF834E3129E64F420099ADF2 /* ViewController.swift in Sources */,
+				FF83C58029E8142600C06BC5 /* MessageCell.swift in Sources */,
+				FF83C57D29E805F800C06BC5 /* ReactionView.swift in Sources */,
 				FF834E2D29E64F420099ADF2 /* AppDelegate.swift in Sources */,
-				FF834E2F29E64F420099ADF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +305,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UANSY5HQP8;
+				DEVELOPMENT_TEAM = DGUQZ567FN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeekPop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,13 +316,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghtk.PeekPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungcv8.PeekPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,9 +336,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UANSY5HQP8;
+				DEVELOPMENT_TEAM = DGUQZ567FN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeekPop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,13 +347,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghtk.PeekPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungcv8.PeekPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

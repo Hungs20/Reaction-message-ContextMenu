@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReactionView" customModule="PeekPop" customModuleProvider="target">
+            <connections>
+                <outlet property="stackView" destination="dEz-ac-XyR" id="Kvp-dQ-nMQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="229" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dEz-ac-XyR">
+                    <rect key="frame" x="0.0" y="0.0" width="229" height="48"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atm-Qk-FfI">
+                            <rect key="frame" x="0.0" y="0.0" width="57.333333333333336" height="48"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="👍"/>
+                            <connections>
+                                <action selector="doLike:" destination="-1" eventType="touchUpInside" id="EFQ-t8-cEG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9P-oi-Q0q">
+                            <rect key="frame" x="57.333333333333329" y="0.0" width="57.333333333333329" height="48"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="♥️"/>
+                            <connections>
+                                <action selector="doLove:" destination="-1" eventType="touchUpInside" id="C02-Z7-WYP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTY-f0-1Bc">
+                            <rect key="frame" x="114.66666666666669" y="0.0" width="57" height="48"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="😠"/>
+                            <connections>
+                                <action selector="doAngry:" destination="-1" eventType="touchUpInside" id="aWl-bV-8xS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztZ-TU-92m">
+                            <rect key="frame" x="171.66666666666666" y="0.0" width="57.333333333333343" height="48"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="🙁"/>
+                            <connections>
+                                <action selector="doSad:" destination="-1" eventType="touchUpInside" id="d7r-3i-43Z"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="dEz-ac-XyR" secondAttribute="bottom" id="Vf8-ut-A17"/>
+                <constraint firstItem="dEz-ac-XyR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cA3-aM-lyq"/>
+                <constraint firstItem="dEz-ac-XyR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eLQ-Xk-9cM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dEz-ac-XyR" secondAttribute="trailing" id="en4-LY-nJj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-58.778625954198468" y="-312.67605633802816"/>
+        </view>
+    </objects>
+</document>
